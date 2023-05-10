@@ -23,7 +23,7 @@
 
 :root {
     --background-color: #0a1930;
-    --primary-color: #39455F; 
+    --primary-color:  #8893b0 ; 
     --secondary-color: #929eb8;
     --interjections-color: #6cbab9;
     --lighter-interjections-color: #6FC9C0;
@@ -140,29 +140,39 @@ header.sticky ul li a {
 
 /* social media */
 
-social_media {
+.social_media {
     display: flex;
-    height: 90vh;
-    margin-left: 5vw;
+    height: 100vh;
+    margin-left: 3vw;
     position:fixed;
     transition: 0.6s;
     z-index: 1000;
 }
 
-social_media ul {
+.social_media ul {
     position: relative;
     color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-social_media ul li {
+.social_media ul li {
     position: relative;
     list-style: none;
+    margin-bottom: 1rem;
 }
-social_media ul li img {
+.social_media ul li:last-child {
+    margin-bottom: 0rem;
+}
+.social_media ul li img {
     height: 64px;
     width: 64px;
+}
+.line {
+    width: 0.05rem;
+    height: 10vh;
+    background-color: var(--h2-color);
+    margin: 0 auto;
 }
 
 /* introduction */
