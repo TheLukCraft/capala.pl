@@ -87,6 +87,20 @@ button {
 span{
     color:#6cbab9;
 }
+.scroll_behaviour {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.section {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 1px 8px 50px 12px rgba(0,0,0,0.76);
+  }
 
 /* header */
 
