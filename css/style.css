@@ -87,6 +87,9 @@ button {
 span{
     color:#6cbab9;
 }
+section {
+    height: 100vh;
+}
 
 /* header */
 
@@ -192,7 +195,6 @@ header.sticky ul li a {
     margin-top: 2em;
     margin-left: 30vw;
     row-gap: 1em;
-    height: 100vh;
     background-size: cover;
 }
 .introduction .welcome{
@@ -209,7 +211,7 @@ header.sticky ul li a {
 }
 .introduction .long_text{
     flex-wrap: wrap;
-    max-width: 60ch;
+    max-width: 70ch;
     text-align: justify;
 }
 .introduction .btn_send_email{
@@ -221,13 +223,12 @@ header.sticky ul li a {
 .about{
     display: flex;
     justify-content: center;
-    height: 100vh;
 }
 .about span{
     font-size: 1.5rem;
 }
 .about p{
-    max-width: 60ch;
+    max-width: 70ch;
     text-align: justify;
 }
 .about p span{
@@ -342,5 +343,20 @@ header.sticky ul li a {
     margin-left: -200px;
     border-radius: 0,5rem;
 }
-
 /* contact */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact ul {
+    flex-direction: row;
+}
+.contact img {
+    height: 128px;
+    width: auto;
+}
+.contact ul li {
+    text-decoration: none;
+    list-style: none;
+}
