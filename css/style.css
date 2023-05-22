@@ -87,9 +87,6 @@ button {
 span{
     color:#6cbab9;
 }
-section {
-    height: 100vh;
-}
 
 /* header */
 
@@ -250,6 +247,7 @@ header .navigation input:checked ~ .hamburger:before {
     margin-top: 2em;
     margin-left: 30vw;
     row-gap: 1em;
+    height: 100vh;
     background-size: cover;
 }
 .introduction .welcome{
@@ -266,7 +264,7 @@ header .navigation input:checked ~ .hamburger:before {
 }
 .introduction .long_text{
     flex-wrap: wrap;
-    max-width: 70ch;
+    max-width: 60ch;
     text-align: justify;
 }
 .introduction .btn_send_email{
@@ -278,12 +276,13 @@ header .navigation input:checked ~ .hamburger:before {
 .about{
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 .about span{
     font-size: 1.5rem;
 }
 .about p{
-    max-width: 70ch;
+    max-width: 60ch;
     text-align: justify;
 }
 .about p span{
